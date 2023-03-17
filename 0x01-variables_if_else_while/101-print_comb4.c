@@ -33,9 +33,10 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			start_i++;
 		}
 		start_j++;
-		start_i++;
+		start_i = start_j + 1;
 	}
 	putchar('\n');
 	return (0);
