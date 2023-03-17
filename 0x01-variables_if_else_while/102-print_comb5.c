@@ -33,6 +33,8 @@ int main(void)
 					putchar(' ');
 					putchar(48 + j);
 					putchar(48 + i);
+					if (l == 9 && k == 8)
+						continue;
 					putchar(',');
 					putchar(' ');
 				}
