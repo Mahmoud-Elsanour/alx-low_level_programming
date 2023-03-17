@@ -16,8 +16,6 @@ int main(void)
 
 	start_i = 1;
 	start_j = 0;
-	start_k = 0;
-	start_l = 0;
 	for (l = 0; l < 10; l++)
 	{
 		for (k = 0; k < 10; k++)
