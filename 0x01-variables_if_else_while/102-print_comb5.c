@@ -34,8 +34,9 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				start_i = 0;
 			}
-			start_i++;
+			start_i = k + 2;
 			if (start_i == 10)
 			{
 				start_i = 0;
