@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	char *h = "abcdef"
+	char *h = "abcdef";
 
 	for (i = 0; i < 10; i++)
 		putchar(48 + i);
