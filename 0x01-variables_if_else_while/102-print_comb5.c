@@ -13,16 +13,14 @@ int main(void)
 	int l;
 	int start_i;
 	int start_j;
-	int start_k;
-	int start_l;
 
 	start_i = 1;
 	start_j = 0;
 	start_k = 0;
 	start_l = 0;
-	for (l = start_l; l < 10; l++)
+	for (l = 0; l < 10; l++)
 	{
-		for (k = start_k; k < 10; k++)
+		for (k = 0; k < 10; k++)
 		{
 			for (j = start_j; j < 10; j++)
 			{
