@@ -29,6 +29,7 @@ void times_table(void)
 			_putchar(elem % 10 + '0');
 			column++;
 		}
+		_putchar('\n');
 		row++;
 	}
 }
