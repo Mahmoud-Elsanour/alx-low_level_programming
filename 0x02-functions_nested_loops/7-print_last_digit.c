@@ -5,8 +5,7 @@
  *
  * @n: a number
  *
- * Return: always zero
- * 
+ * Return: last digit
  **/
 int print_last_digit(int n)
 {
@@ -16,5 +15,5 @@ int print_last_digit(int n)
 	if (d0 < 0)
 		d0 = -1 * d0;
 	_putchar(d0 + '0');
-	return (0);
+	return (d0);
 }
