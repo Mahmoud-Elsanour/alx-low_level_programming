@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * _islower - prints alphabet
+ * print_sign - prints alphabet
  *
- * @x: checks input of function
+ * @n: checks input of function
  *
  * Return: 0
  */
