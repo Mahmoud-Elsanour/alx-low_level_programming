@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include"main.h"
 
 /**
  * main - prints a line
@@ -6,6 +6,14 @@
  */
 int main(void)
 {
-	puts("_putchar\n");
+	char *sentence = "_putchar";
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(sentence[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
