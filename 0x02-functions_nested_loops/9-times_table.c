@@ -8,11 +8,12 @@
 void times_table(void)
 {
 	int row = 0;
-	int column = 0;
+	int column;
 	int elem;
 
 	while (row < 10)
 	{
+		column = 0;
 		while (column < 10)
 		{
 			if (column > 0)
