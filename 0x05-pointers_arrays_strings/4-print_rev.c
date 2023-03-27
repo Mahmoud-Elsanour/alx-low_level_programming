@@ -10,8 +10,14 @@
  */
 void print_rev(char *s)
 {
-	int i = _strlen(s);
+	int i = 0
 	char c = s[i];
+
+	while (c != '\0')
+	{
+		i++;
+		c = s[i];
+	}
 
 	while (i != -1)
 	{
