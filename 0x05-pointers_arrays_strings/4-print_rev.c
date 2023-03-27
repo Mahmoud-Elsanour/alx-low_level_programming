@@ -4,13 +4,13 @@
 /**
  * print_rev - print a string reversed
  *
- * @str: the string
+ * @s: the string
  *
  * Return: void
  */
 void print_rev(char *s)
 {
-	int i = 0
+	int i = 0;
 	char c = s[i];
 
 	while (c != '\0')
