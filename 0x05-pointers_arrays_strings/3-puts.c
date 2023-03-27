@@ -8,7 +8,7 @@
  *
  * Return: void
  */
-int _puts(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 	char c = str[i];
@@ -21,5 +21,4 @@ int _puts(char *str)
 	}
 	c = '\n';
 	write(1, &c, 1)
-	return (i);
 }
