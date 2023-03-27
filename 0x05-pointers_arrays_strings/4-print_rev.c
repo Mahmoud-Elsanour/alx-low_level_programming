@@ -18,7 +18,7 @@ void print_rev(char *s)
 		i++;
 		c = s[i];
 	}
-	c = [--i];
+	c = s[--i];
 	while (i != -1)
 	{
 		write(1, &c, 1);
