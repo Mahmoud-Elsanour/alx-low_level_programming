@@ -20,5 +20,5 @@ void _puts(char *str)
 		c = str[i];
 	}
 	c = '\n';
-	write(1, &c, 1)
+	write(1, &c, 1);
 }
