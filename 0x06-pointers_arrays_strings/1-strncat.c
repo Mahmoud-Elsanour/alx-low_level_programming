@@ -5,7 +5,7 @@
  *
  * @dest: 1st string
  * @src: second string
- *
+ * @n: number of letters
  * Return: concatenated string
  */
 char *_strncat(char *dest, char *src, int n)
