@@ -1,9 +1,10 @@
+#include"main.h"
+
 /**
  * _strncat - concatenate two strings
  *
  * @dest: 1st string
  * @src: second string
- * @n: number of letters
  *
  * Return: concatenated string
  */
@@ -26,5 +27,6 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 		s = src[j];
 	}
+	dest[i] = '\0';
 	return (dest);
 }
