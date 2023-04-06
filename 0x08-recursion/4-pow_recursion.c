@@ -3,7 +3,7 @@
 /**
  * _pow_recursion - calculates the power of a number
  *
- * @n: the number
+ * @x: the number
  * @y: the power
  *
  * Return: integer
