@@ -36,7 +36,7 @@ int coinConverter(int i)
 		}
 		else
 		{
-			change += cent;
+			change += cents;
 			break;
 		}
 	}
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("%d\n", CoinCOnverter(atoi(argv[1])));
+		printf("%d\n", coinCOnverter(atoi(argv[1])));
 	}
 	return (0);
 }
