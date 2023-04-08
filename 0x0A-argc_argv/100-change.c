@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("%d\n", coinCOnverter(atoi(argv[1])));
+		printf("%d\n", coinConverter(atoi(argv[1])));
 	}
 	return (0);
 }
