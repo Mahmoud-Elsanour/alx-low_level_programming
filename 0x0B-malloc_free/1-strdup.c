@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _strdup - a function to duplicate 
+ * _strdup - a function to duplicate
  *
  * @str: the sting
  *
@@ -14,7 +14,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	while (str[i + 1])
+	while (str[i - 1] != NULL)
 		i++;
 	ptr = malloc(sizeof(char) * i);
 	if (ptr == NULL)
