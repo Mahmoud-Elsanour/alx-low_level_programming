@@ -20,7 +20,7 @@ char *str_cat(char *s1, char *s2)
 		j++;
 	ptr = malloc(sizeof(char) * (i + j + 2));
 	if (ptr == NULL)
-		return(NULL)
+		return(NULL);
 	for (; i >= 0; i--)
 		ptr[i] = s1[i];
 	for (; j >= 0; j++)
