@@ -1,3 +1,5 @@
+#include"main.h"
+
 /**
  * alloc_grid - a function that makes a 2d array
  *
