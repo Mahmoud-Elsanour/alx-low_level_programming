@@ -1,4 +1,4 @@
-#include"mainh"
+#include"main.h"
 
 /**
  * array_range - Creates an array of integers ordered
