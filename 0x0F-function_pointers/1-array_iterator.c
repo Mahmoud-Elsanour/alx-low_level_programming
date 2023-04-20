@@ -1,5 +1,6 @@
 /**
- * array_iterator - A function that executes another one on each element of an array
+ * array_iterator - A function that executes another one on each
+ * element of an array
  *
  * @array: thr array address
  * @size: the array size
