@@ -1,33 +1,27 @@
 #include <stdarg.h>
-#include <stdio.h>
 
 /**
- * print_numbers - a function that print numbers, followed by a new line.
+ * sum_them_all - adds all its parameters
  *
- * @separator: pointer to constant separator
  * @n: start of input variables
  *
- * Return: nothing
+ * Return: the sum
 */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
-	unsigned int index;
+	unsigned int param, sum = 0;
 
 	/* initialize the argument list from the start */
 	va_start(ap, n);
 
-	/* iterate through each argument*/
-	for (index = 0; index < n; index++)
-	{
-		/* print next argument */
-		printf("%d", va_arg(ap, int));
-		/* print separator only between arguments */
-		if (separator && index != n - 1)
-			printf("%s", separator);
-	}
-	/*clean up*/
+	/* iterate through all parameter values*/
+	for (param = 0; param < n; param++)
+		/* get the next parameter value and add it to sum*/
+		sum += va_arg(ap, int);
+	/*Clean up*/
 	va_end(ap);
-	printf("\n");
+
+	return (sum);
 }
