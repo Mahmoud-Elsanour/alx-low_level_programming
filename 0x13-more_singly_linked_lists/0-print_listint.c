@@ -3,9 +3,9 @@
 /**
  * print_listint - A function to print a list
  *
- * @h : the head of the list
+ * @h: the head of the list
  *
- * Return : the number of the nodes
+ * Return: the number of the nodes
  */
 size_t print_listint(const listint_t *h)
 {
