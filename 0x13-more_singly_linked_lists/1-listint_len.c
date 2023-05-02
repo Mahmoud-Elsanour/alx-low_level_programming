@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * size_t listint_len - A function to get the size
+ * listint_len - A function to get the size
  *
  * @h: the head of the list
  *
